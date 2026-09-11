@@ -13,7 +13,7 @@
 **0-FLIX** is an easy-to-deploy static website pre-configured for instant hosting on [Vercel](https://vercel.com).
 
 - **Zero configuration:** Deploys out of the box as a static site on Vercel.
-- **Self-contained:** Fonts, styling, vector graphics, and runtime logic are packaged with zero external CDN dependencies.
+- **Modular design:** Built with the Modernist design system, featuring clean unbundled HTML, tokens, and components.
 - **Social-ready:** Includes custom vector favicon (`favicon.svg`) and Open Graph / Twitter Cards preview image (`og-image.png`).
 - **Production-hardened:** `vercel.json` includes security headers (`nosniff`, `SAMEORIGIN`, `strict-origin-when-cross-origin`), clean URLs, and optimized asset caching.
 
@@ -46,7 +46,7 @@ Then visit [http://localhost:3000](http://localhost:3000).
 
 ### Option 3: Open Directly
 
-You can also double-click [index.html](file:///home/kiryl/agy-workspace/0-flix/index.html) or [0-FLIX.html](file:///home/kiryl/agy-workspace/0-flix/0-FLIX.html) in your browser.
+You can also double-click [index.html](file:///home/kiryl/agy-workspace/0-flix/index.html) in your browser.
 
 ---
 
@@ -90,14 +90,15 @@ npm run deploy:prod  # production
 
 ```text
 0-flix/
-├── index.html       # Primary static entry point with SEO & Open Graph meta tags
-├── 0-FLIX.html      # Original source standalone bundle
-├── vercel.json      # Vercel deployment configuration (cleanUrls, headers, rewrites)
-├── package.json     # Project metadata and local dev / deploy scripts
-├── favicon.svg      # Vector SVG favicon matching the 0-FLIX branding
-├── og-image.png     # 1200x630 social preview card for Twitter / LinkedIn / Discord
-├── .gitignore       # Excludes node_modules, .vercel, and OS files
-└── README.md        # Documentation and deployment guide
+├── index.html            # Primary static entry point with SEO & Open Graph meta tags
+├── support.js            # Component runtime support script
+├── _ds/                  # Modernist design system (styles.css, bundle, readme)
+├── vercel.json           # Vercel deployment configuration (cleanUrls, headers, rewrites)
+├── package.json          # Project metadata and local dev / deploy scripts
+├── favicon.svg           # Vector SVG favicon matching the 0-FLIX branding
+├── og-image.png          # 1200x630 social preview card for Twitter / LinkedIn / Discord
+├── .gitignore            # Excludes node_modules, .vercel, and OS files
+└── README.md             # Documentation and deployment guide
 ```
 
 ---
