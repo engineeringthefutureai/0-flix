@@ -1,0 +1,22 @@
+{
+  "name": "0-flix",
+  "version": "1.0.0",
+  "description": "0-FLIX — zero-dollar streaming static website",
+  "private": true,
+  "scripts": {
+    "dev": "serve .",
+    "start": "serve .",
+    "deploy": "vercel",
+    "deploy:prod": "vercel --prod"
+  },
+  "keywords": [
+    "0-flix",
+    "static-site",
+    "vercel"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
