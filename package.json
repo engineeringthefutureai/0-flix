@@ -1,7 +1,7 @@
 {
   "name": "0-flix",
   "version": "1.0.0",
-  "description": "0-FLIX — zero-dollar streaming static website",
+  "description": "0-FLIX — zero-dollar zero-streaming static website",
   "private": true,
   "scripts": {
     "dev": "serve .",

@@ -1,9 +1,9 @@
-# 0-FLIX — Zero-Dollar Streaming
+# 0-FLIX — Zero-Dollar Zero-Streaming
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
 [![License: MIT](https://img.shields.io/badge/License-MIT-black.svg)](LICENSE)
 
-> **Zero-dollar streaming, available now.**  
+> **Zero-dollar zero-streaming, available now.**  
 > No subscription. No account. No card. No catalogue. The player is already loaded, because there is nothing to load.
 
 ---
